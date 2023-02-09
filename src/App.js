@@ -8,7 +8,7 @@ class App extends Component {
     constructor() {
         super();
         this.state = {catfact: 'testfact'}
-        // const [catfact, setCatFact] = useState('');
+        // functional component way of setting state: const [catfact, setCatFact] = useState('');
     }
 
     componentDidMount() {
